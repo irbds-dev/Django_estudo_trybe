@@ -49,7 +49,7 @@
 
 ### Executar container, mapeando a porta 3306 do host para 3306 do container
     docker run -d -p 3306:3306 --name=schedule-mysql-container -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=schedule_database schedule-db
-<em>Caso de erro, verifique se o Build não subiu um container sem apontar as portas (imagino que de para alterar isso no Dockerfile. irei pesquisar depois)</em>
+<em>Esse comando não deve ser necessario caso tenha rodado o docker compose feito na pasta 'schedule'</em>
 
 ### Instalar mysqlclient
     pip install mysqlclient
