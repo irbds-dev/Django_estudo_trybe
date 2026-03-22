@@ -1,0 +1,9 @@
+services:
+  db:
+    build: .
+    container_name: schedule-mysql-container
+    ports:
+      - "3306:3306"
+    restart: always
+
+#Rode 'docker compose up -d'
