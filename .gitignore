@@ -9,6 +9,7 @@ staticfiles/
 
 # Ambientes Virtuais
 .venv/
+venv/
 
 # Variáveis de Ambiente
 .env
